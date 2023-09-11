@@ -8,28 +8,32 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <!--Este é o inicio do cabeçalho-->
-    <div class="row">
-        <thead>
-            <h1>Formulário</h1>
-        </thead>
+    
+    <div class="row"> <!--Adicionando uma div container para alinhar os elementos -->
+        <h1>Formulário</h1>
         <div class="col">
             <h5>Entre em contato</h5>
             <!--Este é o inicio do formulário-->
             <form>
                 <!--Campo de nome-->
+            <div class="formulario">
                 <label class="form-label" for="nome">Nome:</label>
                 <input class="form-control" type="text" id="nome"/>
+            </div>
                 <!--Campo de E-mail-->
+                <div class="formulario">
                 <label class="form-label" for="email">Seu e-mail:</label>
                 <input class="form-control" type="email" id="email"/>
+                </div>
                 <!--Campo de Telefone-->
+                <div class="formulario">
                 <label class="form-label" for="telefone"> Número de telefone:</label>
                 <input class="form-control" type="tel" id="telefone"/>
+                </div>
             </form>
             <!--Fim do formulário-->
         </div>
-        <!--Botão de Envio-->
+        <!--Botão de Enviar-->
         <div class="top">
             <button class="btn btn-success">Enviar</button>
         </div>
